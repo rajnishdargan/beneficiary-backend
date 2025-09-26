@@ -57,7 +57,9 @@ export class NetworkCacheRefreshCron {
     };
   }
 
-  @Cron(process.env.NETWORK_CACHE_REFRESH_CRON_TIME || '*/10 * * * *')
+  
+  //@Cron(process.env.NETWORK_CACHE_REFRESH_CRON_TIME || '*/10 * * * *')
+  /*
   async refreshNetworkCache() {
     try {
       this.logger.log('Network Cache Refresh CRON started at ' + new Date().toISOString());
@@ -69,5 +71,5 @@ export class NetworkCacheRefreshCron {
     } catch (error) {
       this.logger.error('Error in Network Cache Refresh CRON:', error);
     }
-  }
+  }*/
 } 

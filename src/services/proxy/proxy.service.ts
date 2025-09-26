@@ -3,9 +3,12 @@ const axios = require('axios');
 
 @Injectable()
 export class ProxyService {
-  private readonly bap_client_url = process.env.BAP_CLIENT_URL;
+  private bap_client_url = process.env.BAP_CLIENT_URL;
 
   async bapCLientApi2(endPoint, body) {
+    if (endPoint === 'confirm') {
+      this.bap_client_url = 'http://localhost:7000/benefits/dsep';
+    }
     let data = JSON.stringify(body);
     console.log('bap_client_url', `${this.bap_client_url}/${endPoint}`);
     console.log('req_body', data);
