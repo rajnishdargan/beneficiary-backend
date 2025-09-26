@@ -6,7 +6,7 @@ export class ProxyService {
   private bap_client_url = process.env.BAP_CLIENT_URL;
 
   async bapCLientApi2(endPoint, body) {
-    if (endPoint === 'confirm') {
+    if (endPoint === 'confirm' || endPoint === 'status') {
       this.bap_client_url = 'http://localhost:7000/benefits/dsep';
     }
     let data = JSON.stringify(body);
