@@ -12,7 +12,8 @@ import { handleOcrError, handleValidationError } from '../../utils/error-handler
 
 /**
  * Google Gemini API adapter for text extraction
- * Implements the ITextExtractor interface using Gemini 2.0 Flash Experimental model
+ * Implements the ITextExtractor interface using Gemini models
+ * Note: Free tier has rate limits - no retry logic to conserve quota
  */
 export class GoogleGeminiAdapter implements ITextExtractor {
   private readonly logger = new Logger(GoogleGeminiAdapter.name);
@@ -28,6 +29,7 @@ export class GoogleGeminiAdapter implements ITextExtractor {
     
     this.logger.log(`Google Gemini OCR adapter initialized - model: ${this.config.model}`);
   }
+
 
   /**
    * Validate Gemini API permissions by attempting a minimal API call
@@ -104,6 +106,12 @@ export class GoogleGeminiAdapter implements ITextExtractor {
 
       return this.parseGeminiResponse(response, startTime);
     } catch (error) {
+      // Specific handling for rate limit errors
+      if (axios.isAxiosError(error) && error.response?.status === 429) {
+        this.logger.error('Gemini API rate limit exceeded');
+        throw new Error('Gemini API rate limit exceeded. Please wait before trying again or upgrade to paid tier.');
+      }
+      
       this.logger.error(`Google Gemini extraction failed: ${error.message}`, error.stack);
       handleOcrError(error, 'google-gemini');
     }
@@ -155,6 +163,7 @@ export class GoogleGeminiAdapter implements ITextExtractor {
 
     const processingTime = Date.now() - startTime;
     this.logger.log(`Google Gemini extracted ${fullText.length} characters in ${processingTime}ms`);
+    this.logger.debug(`Full Extracted Text from Gemini: ${fullText}`); // Add this line for full text logging
 
     return {
       fullText: fullText.trim(),

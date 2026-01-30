@@ -1,0 +1,573 @@
+{
+  "testInfo": {
+    "totalDocuments": 4,
+    "totalTests": 12,
+    "testStartTime": "2026-01-29T11:15:15.861Z",
+    "testEndTime": "2026-01-29T11:16:19.530Z",
+    "testDuration": 64
+  },
+  "results": [
+    {
+      "document": {
+        "fileName": "Abhishek_Marksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/English/Abhishek_Marksheet.jpg",
+        "expectedLanguage": "english",
+        "documentType": "marksheet",
+        "fileSize": 356352
+      },
+      "ocrProvider": "aws-textract",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "JHARKHAND ACADEMIC COUNCIL, RANCHI\nResults of\nAnnual Secondary Examination - 2024\nRoll Code\n11163\nRoll No.\n0048\nStudent's Name\nABHISHEK ORAON\nFather's Name\nTULSI ORAON\nMother's Name\nSALGI DEVI\nSchool\nADIVASI BAL VIKAS HIGH SCHOOL RATU\nSubject Code\nTheory\nPrac./Ass./CCE\nTotal\nGrade\nRemarks\nHNA\n058\n019\n077\nA\nENG\n050\n019\n069\nA\nMTH\n058\n018\n076\nA\nSCI\n055\n020\n075\nA\nIIT\n010\n054\n064\nA\n#\nSOC\n037\n018\n055\nB\n#\nTotal Obt. Marks\n361\nResult\nFIRST DIV.\nMarks Percentage\n72.20\nNOTE:\n1. \"#\" mark in column remarks indicates swapping between the subjects.\n2. Total Obtained Marks, Result & Marks Percentage is out of Total Marks of 500 (best 5 subjects.)\nNote: Jharkhand Academic Council, Ranchi is not responsible for any inadvertent error that may have crept in the results being published on\nmarksheets have been issued by the Council separately\nNET. The results published on net are for immediate information to the examinees. These cannot be treated as original marksheets. Original",
+        "confidence": 99.36,
+        "processingTime": 2188,
+        "detectedLanguage": "english",
+        "characterCount": 972,
+        "wordCount": 166
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "ABHISHEK ORAON",
+          "rollNumber": "0048",
+          "marks": "361",
+          "percentage": "72.20",
+          "grade": "FIRST DIV.",
+          "passingYear": "2024",
+          "schoolName": "ADIVASI BAL VIKAS HIGH SCHOOL RATU",
+          "boardName": "JHARKHAND ACADEMIC COUNCIL, RANCHI"
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 1649,
+        "fieldCount": 8
+      },
+      "totalTime": 3837,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Abhishek_Marksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/English/Abhishek_Marksheet.jpg",
+        "expectedLanguage": "english",
+        "documentType": "marksheet",
+        "fileSize": 356352
+      },
+      "ocrProvider": "google-gemini",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "JHARAKHAND ACADEMIC COUNCIL, RANCHI\nResults of\nAnnual Secondary Examination - 2024\n\nRoll Code 11163\nRoll No. 0048\nStudent's Name ABHISHEK ORAON\nFather's Name TULSI ORAON\nMother's Name SALGI DEVI\nSchool ADIVASI BAL VIKAS HIGH SCHOOL RATU\n\nSubject Code Theory Prac./Ass./CCE Total Grade Remarks\nHNA 058 019 077 A\nENG 050 019 069 A\nMTH 058 018 076 A\nSCI 055 020 075 A\nIIT 010 054 064 A #\nSOC 037 018 055 B #\nTotal Obt. Marks 361\nResult FIRST DIV.\nMarks Percentage 72.20\n\nNOTE:\n1. \"#\" mark in column remarks indicates swapping between the subjects.\n2. Total Obtained Marks, Result & Marks Percentage is out of Total Marks of 500 (best 5 subjects.)\n\nNote: Jharkhand Academic Council, Ranchi is not responsible for any inadvertent error that may have crept in the results being published on\nNET. The results published on net are for immediate information to the examinees. These cannot be treated as original marksheets. Original\nmarksheets have been issued by the Council separately.",
+        "confidence": 90,
+        "processingTime": 5958,
+        "detectedLanguage": "english",
+        "characterCount": 978,
+        "wordCount": 166
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "ABHISHEK ORAON",
+          "rollNumber": "0048",
+          "marks": "361",
+          "percentage": "72.20",
+          "grade": "FIRST DIV.",
+          "passingYear": "2024",
+          "schoolName": "ADIVASI BAL VIKAS HIGH SCHOOL RATU",
+          "boardName": "JHARKHAND ACADEMIC COUNCIL, RANCHI"
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 1167,
+        "fieldCount": 8
+      },
+      "totalTime": 7125,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Abhishek_Marksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/English/Abhishek_Marksheet.jpg",
+        "expectedLanguage": "english",
+        "documentType": "marksheet",
+        "fileSize": 356352
+      },
+      "ocrProvider": "tesseract",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "| WE\nJHARKHAND ACADEMIC COUNCIL, RANCHI\nResults of\nAnnual Secondary Examination - 2024\nRoll Code 11163\nRoll No. 0048\nStudent's Name ABHISHEK ORAON\nFather's Name TULSI ORAON\nMother's Name SALGI DEVI\nSchool ADIVASI BAL VIKAS HIGH SCHOOL RATU\nvA [oss | ow Jor] a | |\nst Joss | 00  Jors| a |\nmr [oo [oss [oa a | x |\nS0C ii iii] 987.) i 930 1055. Ds ae\nNOTE:\n1. “#\" mark in column remarks indicates swapping between the subjects.\n2. Total Obtained Marks, Result & Marks Percentage is out of Total Marks of 500 (best 5 subjects.)\nNote: Jharkhand Academic Council, Ranchi is not responsible for any inadvertent error that may have crept in the results being published on\nNET. The results published on net are for immediate information to the examinees. These cannot be treated as original marksheets. Original\nmarksheets have been issued bv the Catineil conaratal;",
+        "confidence": 90,
+        "processingTime": 2307,
+        "detectedLanguage": "english",
+        "characterCount": 857,
+        "wordCount": 151
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "ABHISHEK ORAON",
+          "rollNumber": "0048",
+          "marks": "987 930 1055 987 987",
+          "percentage": null,
+          "grade": null,
+          "passingYear": null,
+          "schoolName": "ADIVASI BAL VIKAS HIGH SCHOOL RATU",
+          "boardName": "JHARKHAND ACADEMIC COUNCIL, RANCHI"
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 1226,
+        "fieldCount": 8
+      },
+      "totalTime": 3533,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Md.Arsh_Marksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/English/Md.Arsh_Marksheet.jpg",
+        "expectedLanguage": "english",
+        "documentType": "marksheet",
+        "fileSize": 417694
+      },
+      "ocrProvider": "aws-textract",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "} Enpires\nTharkhand Academic Council, Ranchi\nSI. No. 038382\nTHE :\nFAT 11 чат, 2024\nClass 11 Examination, 2024\n3105-47 (Marks Statement)\nRoll Code :\nRoll No. :\nRegistration No. :\n11120\nFaculty :\n10221\n11120-RS-0221-23\nSCIENCE\nCollege / +2 School's Name :\nANITA INTERMEDIATE COLLEGE KANKE RANCHI\nStudent's Name :\nMD ARSH\nFather's Name :\nMother's Name :\nMD HUMAYUN\nMAHJABEEN PARWEEN\nSI. No.\nSubject Name\nFull Marks\nMarks Obtained\nRemarks\n1.\nENGLISH-A\n50\n37\n2.\nPHYSICS\n50\n40\n3.\nCHEMISTRY\n50\n28\nPROMOTED\n4.\nBIOLOGY\n50\n33\n5.\nCOMPUTER SCIENCE\n50\n28\nAGGREGATE\n166\nResult Description:\nPROMOTED = Promoted for higher class.\nMARGINAL a Detained in same class.\nINCOMPLETE = I.A. Marks not entered by +2 School / College.\nPRINCIPAL\n21\nDate: 17-05-2024\nSignature of O.A./ Class Teacher\nAnita Internediate.College Internediate.College Internediate.College Internediate.College Principal\nSecretary\nPlace: RANCHI\nKanke, Ranchi\nJharkhand Academic Council, Ranchi\ncresults com/cls-eleven-2024/main result nhn\n1/1",
+        "confidence": 92.27,
+        "processingTime": 1993,
+        "detectedLanguage": "english",
+        "characterCount": 993,
+        "wordCount": 150
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "MD ARSH",
+          "rollNumber": "11120-RS-0221-23",
+          "marks": "166",
+          "percentage": null,
+          "grade": null,
+          "passingYear": "2024",
+          "schoolName": "ANITA INTERMEDIATE COLLEGE KANKE RANCHI",
+          "boardName": "Jharkhand Academic Council, Ranchi"
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 1373,
+        "fieldCount": 8
+      },
+      "totalTime": 3366,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Md.Arsh_Marksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/English/Md.Arsh_Marksheet.jpg",
+        "expectedLanguage": "english",
+        "documentType": "marksheet",
+        "fileSize": 417694
+      },
+      "ocrProvider": "google-gemini",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "झारखण्ड अधिविद्य परिषद्, राँची\nJharkhand Academic Council, Ranchi\nकक्षा 11 परीक्षा, 2024\nClass 11 Examination, 2024\nअंक-पत्र (Marks Statement)\nSI. No. 038382\n\nRoll Code :\n11120\nRoll No. :\n10221\nRegistration No. :\n11120-RS-0221-23\nFaculty :\nSCIENCE\n\nCollege / +2 School's Name :\nANITA INTERMEDIATE COLLEGE KANKE RANCHI\n\nStudent's Name :\nMD ARSH\n\nFather's Name :\nMD HUMAYUN\n\nMother's Name :\nMAHJABEEN PARWEEN\n\nSl. No.\nSubject Name\nFull Marks\nMarks Obtained\nRemarks\n\n1.\nENGLISH-A\n50\n37\n\n2.\nPHYSICS\n50\n40\n\n3.\nCHEMISTRY\n50\n28\nPROMOTED\n\n4.\nBIOLOGY\n50\n33\n\n5.\nCOMPUTER SCIENCE\n50\n28\n\nAGGREGATE\n166\n\nResult Description:\nPROMOTED = Promoted for higher class.\nMARGINAL = Detained in same class.\nINCOMPLETE = I.A. Marks not entered by +2 School / College.\n\nDate: 17-05-2024\nPlace: RANCHI\nSignature of O.A./ Class Teacher\n\nPRINCIPAL\nAnita Intermediate College\nAnita Intermediate College, Head Master / Principal\nKanke, Ranchi\n\nSecretary\nJharkhand Academic Council, Ranchi\n\nacresults.com/cls-eleven-2024/main result.php\n1/1",
+        "confidence": 90,
+        "processingTime": 4838,
+        "detectedLanguage": "english",
+        "characterCount": 1009,
+        "wordCount": 151
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "MD ARSH",
+          "rollNumber": "10221",
+          "marks": "166",
+          "percentage": null,
+          "grade": null,
+          "passingYear": "2024",
+          "schoolName": "ANITA INTERMEDIATE COLLEGE KANKE RANCHI",
+          "boardName": "Jharkhand Academic Council, Ranchi"
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 1113,
+        "fieldCount": 8
+      },
+      "totalTime": 5951,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Md.Arsh_Marksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/English/Md.Arsh_Marksheet.jpg",
+        "expectedLanguage": "english",
+        "documentType": "marksheet",
+        "fileSize": 417694
+      },
+      "ocrProvider": "tesseract",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "—_——\n| -\ni 1 ;\n| 5 il =\n£\nH\nH\n| 8 a E\n2 g £\n| | E 5 = BX\n‘ 8 o 8y\nog « x EE\n«a H LS FE]\n2 IR\n2 ® 8\n2 8 EH\ns = 2\n4 Rd H\n[7 Zz 3 2\n3 2 5\n£\noth|gia|nele\no =\n$ hd\nH |\nz\n5 g\n: B I H | i w 3\ngl.3 H | £ =\n3) x gg H H fil £\ni pa g $¥ ez | 8 | g | £\n= ow gE Zs Ed [| | § Me\n> i ° m\nESE = £3 221238 | Bl8|8]< ok\nB atd) FE 2:12 =\nPe) I<] 2 FES |\n, E ult £5 2%\n26E FE ] | TEE\nEEE 8° : | LES\n| Sf 5 i A E32\n2ER = 3 w\\e & =\n& ETB Pl VEZ Eg\n; @ 3 Bc\n5: tg f ais I\nrE O i | fii |\nol ed 2\nEo i z jd\n2 | lal <\np le]:\n§ 4 HERE\n.8 lg k\n§ g Elz]:\n3 : : 3\nwis 0 glk i\nPEER FH £4.38 | sy\nER I £1F)2 3\nA : : :\nNad] & =8 bo] 5 :\nond 7 5 H 0 = |\nmo Ep & H :\n= o g g £\n2 £ y 8 H :\na 5 < Po) o £\n3% z + wn £ > £ Fr @ 5\nSE | . z gle(d]|8)8|5 H 5\nEG |g Bball 3lalE18 8 FS 2\nc| 0k | E ox | S| 8 |x2|u|a|E E e |\nS| nZ| Ez 82|z2lz|z|z|28|8 2 © a\nnt ssl Ez a|G|a|88|8 T 3 2:\nov +a «© 2 u © ow a\non | El wg 22 2 gF H\n3 92 | Ea | fa | a 23 < :\nS |g 3F 2% 8 = 23 J\nz 2 H : i ou <\n208 (8 |Ealalalelats Fi 5 g\n& §é €\n¢\nIETS LS",
+        "confidence": 90,
+        "processingTime": 3905,
+        "detectedLanguage": "english",
+        "characterCount": 987,
+        "wordCount": 360
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "JOHN DOE",
+          "rollNumber": "ABC-123",
+          "marks": "450",
+          "percentage": "90%",
+          "grade": "A",
+          "passingYear": "2022",
+          "schoolName": "ABC SCHOOL",
+          "boardName": "XYZ BOARD"
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 896,
+        "fieldCount": 8
+      },
+      "totalTime": 4801,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Ujjwal_Kumar_Marksheet.png",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/Hindi/Ujjwal_Kumar_Marksheet.png",
+        "expectedLanguage": "hindi",
+        "documentType": "marksheet",
+        "fileSize": 190059
+      },
+      "ocrProvider": "aws-textract",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "acida 000 Pallicia\nalongs doc, 40011 - 801503 (PAETR)\nU-DISE CODE : 10280804502\nPar.Pa.a.er. asis : : 71132 000 17044 a : 113 BSEB Code : JCDPPT00496\n421100 :\nreal\nParido : 20/05/2025\nTHING incl GITHT E. 30019M 3412 iddl-\nrii iddia 410SN Hidi- HIGHT 991 asi-Tat off Is an\n421241 2025 H 31,10T 5412. 224971\nE.\niral - 100 - 63\n24 - 100 - 52.\nLIVIN - 100 - 75\n1920101 - 100 - 54\nidenter 100 - 49\n500 293 58.6%\n31,100 - 100 54\nyo belosizers\n46101 2\"CY Pallery\nwrige $78, 48TH",
+        "confidence": 60.78,
+        "processingTime": 1559,
+        "detectedLanguage": "english",
+        "characterCount": 471,
+        "wordCount": 96
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "acida 000 Pallicia",
+          "rollNumber": "40011 - 801503",
+          "uDiseCode": "10280804502",
+          "parPaAer": "71132 000 17044",
+          "bsebCode": "JCDPPT00496",
+          "passingYear": "2025",
+          "marks": "421100 : real Parido : 20/05/2025 THING incl GITHT E. 30019M 3412 iddl- rii iddia 410SN Hidi- HIGHT 991 asi-Tat off Is an 421241 2025 H 31,10T 5412. 224971 E. iral - 100 - 63 24 - 100 - 52. LIVIN - 100 - 75 1920101 - 100 - 54 identer 100 - 49",
+          "percentage": "500 293 58.6%",
+          "grade": "31,100 - 100 54",
+          "schoolName": "yo belosizers",
+          "boardName": "46101 2\"CY Pallery"
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 3909,
+        "fieldCount": 11
+      },
+      "totalTime": 5468,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Ujjwal_Kumar_Marksheet.png",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/Hindi/Ujjwal_Kumar_Marksheet.png",
+        "expectedLanguage": "hindi",
+        "documentType": "marksheet",
+        "fileSize": 190059
+      },
+      "ocrProvider": "google-gemini",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "बलदेव उच्च माध्यमिक विद्यालय\nदानापुर कैंट, पटना - 801503 (बिहार)\nU-DISE CODE : 10280804502\nवि.वि.प.स. कोड : माध्यमिक : 71132 उच्च माध्यमिक : 17044 व्यावसायिक : 113 BSEB Code : JCDPPT00496\nप्रेषक :\nप्राचार्य\nपत्रांक :\nदिनांक : 20/05/2025\nप्रमाणित किया जाता है कि उज्जवल कुमार पिता-\nश्री विनोद पण्डित माता- मालती देवी वर्ग नवम् की वार्षिक\nपरीक्षा वर्ष - 2025 में उत्तीर्ण हुआ है। इसका परीक्षाफल\nनिम्नवत है।\nहिन्दी - 100 - 63\nसंस्कृत - 100 - 52.\nगणित - 100 - 75\nविज्ञान - 100 - 54\nसामाजिक विज्ञान - 100 - 49\n500 293 58.6%\nअंग्रेजी - 100 54\n20/05/2025\nप्र० प्रधानाध्यापक\nबलदेव इन्टर विद्यालय\nदानापुर कैन्द्र, पटना",
+        "confidence": 90,
+        "processingTime": 5596,
+        "detectedLanguage": "hindi",
+        "characterCount": 609,
+        "wordCount": 111
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "उज्जवल कुमार",
+          "rollNumber": null,
+          "marks": "हिन्दी - 100 - 63\nसंस्कृत - 100 - 52.\nगणित - 100 - 75\nविज्ञान - 100 - 54\nसामाजिक विज्ञान - 100 - 49\n500 293 58.6%\nअंग्रेजी - 100 54",
+          "percentage": "58.6%",
+          "grade": null,
+          "passingYear": "2025",
+          "schoolName": "बलदेव उच्च माध्यमिक विद्यालय",
+          "boardName": "BSEB"
+        },
+        "missingFields": [
+          "rollNumber"
+        ],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 2544,
+        "fieldCount": 8
+      },
+      "totalTime": 8140,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Ujjwal_Kumar_Marksheet.png",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/Hindi/Ujjwal_Kumar_Marksheet.png",
+        "expectedLanguage": "hindi",
+        "documentType": "marksheet",
+        "fileSize": 190059
+      },
+      "ocrProvider": "tesseract",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "FEngR dee, Tee - 801503 (Reg)\nU-DISE CODE : 10280804502\nFrfrarer os: meas : 71132 Sew eae : 17044 RARE: 113 BSEB Code : JCOPFTOM96\nare! feitee : .20J0s]ants”\n9]\npro © ar rrr 8 er ag Sar\n\n. iy Hr ser srt yf GF eg of afar\n\nSag IE 200c W or GAR saw WS -\n\nSrp.\n\nI\n\nBFE — 10D — S2\n\nSfoiy — 1vo—— 187\n\nFare - 100 — SY\n\naw Nama low —— 49\n\nSov ES sgh\nare — lo SH\n3\nber\n&\n\nYo gar\nwR ex Ra\nwg vw",
+        "confidence": 90,
+        "processingTime": 1262,
+        "detectedLanguage": "english",
+        "characterCount": 385,
+        "wordCount": 95
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "FEngR dee, Tee",
+          "rollNumber": "801503 (Reg)",
+          "uDiseCode": "10280804502",
+          "schoolName": "FEngR dee, Tee",
+          "boardName": "BSEB",
+          "boardCode": "JCOPFTOM96",
+          "marks": {
+            "hindi": "100",
+            "english": "100",
+            "maths": "100",
+            "science": "100",
+            "socialScience": "100"
+          },
+          "percentage": null,
+          "grade": null,
+          "passingYear": null
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 1400,
+        "fieldCount": 10
+      },
+      "totalTime": 2662,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Vishal_Kumar_MArksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/Hindi/Vishal_Kumar_MArksheet.jpg",
+        "expectedLanguage": "hindi",
+        "documentType": "marksheet",
+        "fileSize": 946674
+      },
+      "ocrProvider": "aws-textract",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "Classes VI to VIII\nHH Pallier 93711\nzettet\nSale 460/9 Jeb\nchick 01\nParer\nФ/10/128\nчтать\nPadier\nlells\n311219\n1 ( (704)\nRT>T\n2121\n)\n100\n2 Padia\n30\n79\n(\n)\n100\n88\n30\n3 (\n)\n100\n4 and ciolla\n30\n88\nIdiv.\n100\n30\n5 Pasic\n91\n100\n30\n6 Pasia (afoict,\n92\n89.28%\nsidera pa\n100\n95\n30\n7 clield eren den\n100\n30\nda signal MEan\n92\n-50\n15\n8\n9\n10\n21/01\n625\nчетя 2751\nPadia RTST\n31121201 -32H\n& Receive\n3Γa3\n271031025 Any\nPan an &T\n12/42/21\n4871-3",
+        "confidence": 67.64,
+        "processingTime": 2699,
+        "detectedLanguage": "english",
+        "characterCount": 425,
+        "wordCount": 95
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "HH Pallier 93711",
+          "rollNumber": "460/9 Jeb",
+          "marks": "01 Parer Ф/10/128 чтать Padier lells 311219 1 ( (704) RT>T 2121 ) 100 2 Padia 30 79 ( ) 100 88 30 3 ( ) 100 4 and ciolla 30 88 Idiv. 100 30 5 Pasic 91 100 30 6 Pasia (afoict, 92 89.28% sidera pa 100 95 30 7 clield eren den 100 30 da signal MEan 92 -50 15 8 9 10 21/01 625 четя 2751 Padia RTST 31121201 -32H & Receive 3Γa3 271031025 Any Pan an &T 12/42/21 4871-3",
+          "percentage": null,
+          "grade": null,
+          "passingYear": null,
+          "schoolName": null,
+          "boardName": null
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 3557,
+        "fieldCount": 8
+      },
+      "totalTime": 6256,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Vishal_Kumar_MArksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/Hindi/Vishal_Kumar_MArksheet.jpg",
+        "expectedLanguage": "hindi",
+        "documentType": "marksheet",
+        "fileSize": 946674
+      },
+      "ocrProvider": "google-gemini",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "परीक्षाफल-पत्रक\nसत्र-2025 Classes VI to VIII\nराजकीय नेत्त्री उच्च विद्यालय, स्थान कदमकुआं, पटना-3\nनाम... विशाल कुमार\nवर्ग....... खण्ड.\nनामांक....... 01.\n\nविषय\nप्राप्तांक\nपूर्णांक\nउत्तीर्णक\nप्रथम\nसत्र\nद्वितीय\nसत्र\nसत्रांत\nयोग\nऔसत\n\n1 मातृभाषा (हिन्दी )\n2 द्वितीय भारतीय भाषा\n( संस्कृत )\n3 अंग्रेजी (\n4 ब्यवसाये संगीत\n5 विज्ञान\n6 सामाजिक विज्ञान (भूगोल,\nइतिहास एवं नागरिक शास्त्र)\n7 ललित कला एवं संगीत लेखन\n100\n100\n100\n100\n100\n100\n30\n30\n30\n30\n30\n30\n79\n88\n88\n91\n92\n95\nIdiv.\n89-28%\n50\n15\n8\n9\n10\nयोग\n625\n\nआचरण - उत्तम\nउपस्थिति\nवर्गशिक्षक का हस्ताक्षर\nअभ्युक्ति\nपिता या अभिभावक का हस्ताक्षर\nप्रधान सत्र\nद्वितीय सत्र\nसत्रांत\nAay\n77031025\nप्रधानध्यापक\nराजकीय नेत्त्री उच्च विद्यालय\nकदमकुआं, पटना-3",
+        "confidence": 90,
+        "processingTime": 6874,
+        "detectedLanguage": "hindi",
+        "characterCount": 688,
+        "wordCount": 118
+      },
+      "mappingResult": {
+        "success": true,
+        "mappedData": {
+          "studentName": "विशाल कुमार",
+          "rollNumber": "01",
+          "marks": "79 88 88 91 92 95",
+          "percentage": "89-28%",
+          "grade": "उत्तम",
+          "passingYear": "2025",
+          "schoolName": "राजकीय नेत्त्री उच्च विद्यालय",
+          "boardName": null
+        },
+        "missingFields": [],
+        "confidence": 85,
+        "processingMethod": "bedrock",
+        "warnings": [],
+        "processingTime": 1454,
+        "fieldCount": 8
+      },
+      "totalTime": 8328,
+      "success": true
+    },
+    {
+      "document": {
+        "fileName": "Vishal_Kumar_MArksheet.jpg",
+        "filePath": "/home/ttpl-rt-171/Documents/Piramal/Beneficiary/beneficiary-backend/Test_Docs/Marksheet/Hindi/Vishal_Kumar_MArksheet.jpg",
+        "expectedLanguage": "hindi",
+        "documentType": "marksheet",
+        "fileSize": 946674
+      },
+      "ocrProvider": "tesseract",
+      "mappingProvider": "bedrock",
+      "ocrResult": {
+        "success": true,
+        "extractedText": "RE RI 5 tTD in\n[sy 20A5 Classes Vi to Vill\nTST FD as | ~20 2,\nALLE TCT OTN, AZ ; a” . TZ 7] ~ 4\nfa a. sofa BEAST Tl\n| [i —— : rs | . 5 25 Hi sew\nLAR EST ’ |\n@ot....=78797 gp\nFothorena ————————— ——— BR TR PURSE nc\n2d od wr | 19\n( AZZ W 100 | 8% |\nNo © 100 | 39 - ” :\nSMA nf | glee sv | |. LV\n+38 mith 100 | 30 1. rte\nsloErs ve Bl BEN ha a — ae\n(Resist wa 2 Gi’ | 44s Eile of 5 gt\n IPRETNSIRE SIREN, so Ve SR | Shae : : |\nE | ¢ SRUROU/NOUOPOPUUSUPRNTRT THNI : dn |\nam — 3° ¢ BE Tre=amim\nEte I EE I\n| STEHT EE Shere Crear |\nhE, TET",
+        "confidence": 90,
+        "processingTime": 4189,
+        "detectedLanguage": "english",
+        "characterCount": 528,
+        "wordCount": 146
+      },
+      "mappingResult": {
+        "success": false,
+        "error": "OCR_BEDROCK_PROCESSING_FAILED",
+        "processingTime": 5
+      },
+      "totalTime": 4194,
+      "success": false
+    }
+  ],
+  "providerCombinations": {
+    "aws-textract+bedrock": {
+      "ocrProvider": "aws-textract",
+      "mappingProvider": "bedrock",
+      "successCount": 4,
+      "failureCount": 0,
+      "averageOcrTime": 2110,
+      "averageMappingTime": 2622,
+      "averageTotalTime": 4732,
+      "averageOcrConfidence": 80,
+      "averageMappingConfidence": 85,
+      "averageFieldCount": 9,
+      "totalOcrTime": 8439,
+      "totalMappingTime": 10488,
+      "totalTotalTime": 18927,
+      "totalOcrConfidence": 320.05,
+      "totalMappingConfidence": 340,
+      "totalFieldCount": 35
+    },
+    "google-gemini+bedrock": {
+      "ocrProvider": "google-gemini",
+      "mappingProvider": "bedrock",
+      "successCount": 4,
+      "failureCount": 0,
+      "averageOcrTime": 5817,
+      "averageMappingTime": 1570,
+      "averageTotalTime": 7386,
+      "averageOcrConfidence": 90,
+      "averageMappingConfidence": 85,
+      "averageFieldCount": 8,
+      "totalOcrTime": 23266,
+      "totalMappingTime": 6278,
+      "totalTotalTime": 29544,
+      "totalOcrConfidence": 360,
+      "totalMappingConfidence": 340,
+      "totalFieldCount": 32
+    },
+    "tesseract+bedrock": {
+      "ocrProvider": "tesseract",
+      "mappingProvider": "bedrock",
+      "successCount": 3,
+      "failureCount": 1,
+      "averageOcrTime": 2491,
+      "averageMappingTime": 1174,
+      "averageTotalTime": 3665,
+      "averageOcrConfidence": 90,
+      "averageMappingConfidence": 85,
+      "averageFieldCount": 9,
+      "totalOcrTime": 7474,
+      "totalMappingTime": 3522,
+      "totalTotalTime": 10996,
+      "totalOcrConfidence": 270,
+      "totalMappingConfidence": 255,
+      "totalFieldCount": 26
+    }
+  },
+  "recommendations": {
+    "bestOverall": "google-gemini+bedrock",
+    "bestForSpeed": "tesseract+bedrock",
+    "bestForAccuracy": "google-gemini+bedrock",
+    "bestForHindi": "tesseract+bedrock",
+    "bestForEnglish": "aws-textract+bedrock",
+    "byDocumentType": {},
+    "summary": [
+      "Best Overall: OCR=google-gemini, Mapping=bedrock",
+      "Fastest: OCR=tesseract, Mapping=bedrock",
+      "Most Accurate: OCR=google-gemini, Mapping=bedrock",
+      "Best for Hindi: OCR=tesseract, Mapping=bedrock",
+      "Best for English: OCR=aws-textract, Mapping=bedrock"
+    ]
+  }
+}

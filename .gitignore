@@ -1,8 +1,11 @@
 # compiled output
 /dist
 /node_modules
+/Test_Docs
+/test-results
 
 .env
+setup-ocr-env.sh
 
 # Logs
 logs
