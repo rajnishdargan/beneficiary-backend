@@ -495,5 +495,7 @@ The OCR Mapping Adapter:
 **Related Documentation**:
 - **Service Adapters** - How adapters work together
 - **OCR Processing Adapter** - Extract text from images
+- **OCR Provider Comparison** - Choose the right OCR provider
 - **Storage Adapter** - Store files in cloud
+- **AI Model Parameters** - Configure Bedrock models
 

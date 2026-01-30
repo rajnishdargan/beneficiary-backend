@@ -21,7 +21,7 @@ Use this reference to:
 ### 📄 Document Processing
 Learn how documents are processed through OCR, AI mapping, and cloud storage.
 
-**Topics**: Service Adapters, OCR Processing, OCR Mapping, File Storage
+**Topics**: Service Adapters, OCR Processing, OCR Mapping, File Storage, OCR Provider Comparison
 
 ### 🔐 Verifiable Credentials
 Verifiable credential creation and management using Dhiway platform.

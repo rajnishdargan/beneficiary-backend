@@ -22,6 +22,7 @@ Learn how documents are processed through OCR, AI mapping, and storage.
 - `02-ocr-processing.md` - Text extraction from images/PDFs
 - `03-ocr-mapping.md` - AI-powered field extraction
 - `04-file-storage.md` - Cloud storage (S3, GCS, Azure)
+- `05-ocr-provider-comparison.md` - OCR provider performance analysis
 
 ---
 
